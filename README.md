@@ -1,4 +1,2 @@
 # jkpgibson.github.io
-this is my website, that's it
-#This is my website
-#If you're reading this you're probably disappointed, check back later if you want something to look at
+There's not much here, just my resume as a pdf, and an index.html. I'm working on adding CSS and some js, until then there's just the bare necessities for a digital footprint.
