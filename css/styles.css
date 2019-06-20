@@ -4,4 +4,21 @@
     width: 50%;
     padding: 10px;
     text-align: center;
+    color: darkslategray;
+    background-color: ghostwhite;
 }
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: skyblue;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: maroon;
+  }
