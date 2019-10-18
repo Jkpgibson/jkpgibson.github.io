@@ -1,9 +1,22 @@
 @charset "UTF-8";
 /* CSS Doc */
 
-#content {
+body {
     color: darkslategray;
     background-color: ghostwhite;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #999;
+	text-decoration: none;
+}
+
+#content {
     font-family: 'Noto Serif', serif;
 	height:100%;
 	width: 100%;
@@ -26,7 +39,6 @@
 
 #toppanel #nav {
     font-family: 'Noto Serif', serif;
-    color: darkslategray;
 	font-size: 11px;
 	line-height: 14px;
 	text-transform: uppercase;
@@ -37,53 +49,29 @@
 	float: right;
 }
 
-#toppanel #nav a {
-    color: darkslategray;
-	text-decoration: none;
-}
-
-#toppanel #nav a:hover {
-	color: #999;
-	text-decoration: none;
-}
-
 /*--- content panel ---*/
 #contentpanel {
     vertical-align: middle;
 	margin: 50px auto 0 auto;
 	width: 800px;
-	color: darkslategray;
 }
 
 #contentpanel #date {
-	font-family: Gill Sans, Verdana;
 	font-size: 11px;
 	line-height: 14px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: bold;
 	margin-top: 8px;
-	color: #ddd;
 }
 
 #contentpanel #note {
-	font-family: Gill Sans, Verdana;
 	font-size: 9px;
 	line-height: 14px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	font-weight: bold;
 	margin-top: 8px;
-	color: #ddd;
-}
-
-#contentpanel a {
-	text-decoration: none;
-}
-
-#contentpanel a:hover {
-	color: #999;
-	text-decoration: none;
 }
 
 #contentpanel li {
@@ -104,8 +92,6 @@
 /*--- left panel ---*/
 #leftpanel {
     font-family: 'Noto Serif', serif;
-    background-color: ghostwhite;
-    color: darkslategray;
 	display: table-cell;
     vertical-align: middle;
 	float: left;
@@ -127,28 +113,15 @@
 	letter-spacing: 2px;
 	font-weight: bold;
 	margin-top: 8px;
-	color: darkslategray;
 	float: right;
 	margin: 15px 10px 0 0;
 }
 
 /*--- right panel ---*/
 #rightpanel {
-    background-color: ghostwhite;
-    color: darkslategray;
 	float: left;
 	height: 100%;
 	width: 50%;
-}
-
-#rightpanel a {
-    color: black;
-	text-decoration: none;
-}
-
-#rightpanel a:hover {
-	color: #999;
-	text-decoration: none;
 }
 
 #rightpanel ul {
