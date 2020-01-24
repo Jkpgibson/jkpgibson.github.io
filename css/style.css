@@ -152,6 +152,19 @@ ol.table-of-contents ol {
     margin: 0px 0px 0px 36px;
     padding: 0px;
 }
+.wrapper {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+#leftpanel {
+    margin-left: auto;
+    margin-right: 0px;
+}
+#rightpanel {
+    margin-left: 0px;
+    margin-right: auto;
+}
 
 /* Index Pages ------------------------------------------------------------- */
 ol.index {
