@@ -1,10 +1,12 @@
 html {
     overflow-y: scroll;
+    height: 100%;
 }
 body {
     text-rendering: optimizeLegibility;
-    margin: 10px auto 200px;
+    margin: 10px auto 100px;
     width: 700px;
+    height: 50%;
     font-family: serif;
     font-size: 18px;
     line-height: 24px;
@@ -45,6 +47,7 @@ footer > nav {
 
 main {
     margin: 36px 0px;
+    height: 100%;
 }
 
 p, ul, ol {
@@ -153,17 +156,36 @@ ol.table-of-contents ol {
     padding: 0px;
 }
 .wrapper {
+    /* padding-top: 70px; */
     display: flex;
     margin: auto;
     width: 100%;
+    height: 100%;
 }
 #leftpanel {
+    size: auto;
+    vertical-align: middle;
     margin-left: auto;
     margin-right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+}
+#leftpanel h1{
+    font-size: 70px;
+    margin-bottom: 8px;
+}
+#leftpanel h5 {
+    /* font-size: small; */
+    margin-top: 7px;
 }
 #rightpanel {
+    size: auto;
+    vertical-align: middle;
     margin-left: 0px;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* Index Pages ------------------------------------------------------------- */
