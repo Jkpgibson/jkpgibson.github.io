@@ -6,7 +6,7 @@ body {
     text-rendering: optimizeLegibility;
     margin: 10px auto 100px;
     width: 700px;
-    height: 50%;
+    height: auto;
     font-family: serif;
     font-size: 18px;
     line-height: 24px;
@@ -66,6 +66,11 @@ blockquote {
     border-left: 6px solid #e2e2e2;
     margin-left: 24px;
     padding-left: 12px;
+}
+
+iframe {
+    height: 950px;
+    width: 100%;
 }
 
 /* Headings ---------------------------------------------------------------- */
