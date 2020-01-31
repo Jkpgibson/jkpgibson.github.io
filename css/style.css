@@ -25,7 +25,6 @@ hr.main-separator {
 
 header {
     color: #777;
-    text-transform: lowercase;
     font-size: 20px;
     line-height: 30px;
 }
@@ -89,7 +88,7 @@ h1 a, h2 a, h3 a, h4 a {
     color: black
 }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
-    color: #e50053; text-decoration: none;
+    color: #CC3026; text-decoration: none;
 }
 
 h1 { font-size: 40px; line-height: 50px; margin: 24px 0; }
@@ -156,7 +155,7 @@ th {
 
 /* Bits & Bobs ------------------------------------------------------------- */
 a#logo { color: #000000; }
-a#logo:hover { color: #e50053; }
+a#logo:hover { color: #CC3026; }
 
 ol.table-of-contents {
     list-style-type: none;
