@@ -5,7 +5,7 @@ html {
 body {
     text-rendering: optimizeLegibility;
     margin: 10px auto 100px;
-    width: 700px;
+    width: 850px;
     height: auto;
     font-family: serif;
     font-size: 18px;
@@ -48,6 +48,8 @@ footer > nav {
 main {
     margin: 36px 0px;
     height: 100%;
+    width: auto;
+    display: inline-flex;
 }
 
 p, ul, ol {
@@ -71,6 +73,12 @@ blockquote {
 iframe {
     height: 950px;
     width: 100%;
+}
+
+img {
+    width:200px;
+    height:200px;
+    margin: 10px;
 }
 
 /* Headings ---------------------------------------------------------------- */
@@ -163,7 +171,7 @@ ol.table-of-contents ol {
 .wrapper {
     /* padding-top: 70px; */
     display: flex;
-    margin: auto;
+    margin: 10px;
     width: 100%;
     height: 100%;
 }
