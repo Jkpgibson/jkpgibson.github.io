@@ -9,3 +9,4 @@ Much of the CSS by stevelosh.com
 - Make the resume download with my name in the filename
 - Smooth out some edges
 - Make it look prettier
+- Add mobile support
