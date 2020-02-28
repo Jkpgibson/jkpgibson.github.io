@@ -5,8 +5,13 @@ Front page inspired by adriangaw.com
 Much of the CSS by stevelosh.com
 
 ## TODOs
-- Start writing blog posts
+### Must
+- ~~Start writing blog posts~~
+- Keep writing
+### Should
+- Add mobile support
 - Make the resume download with my name in the filename
+### Want
 - Smooth out some edges
 - Make it look prettier
-- Add mobile support
+- Switch to Jekyll
