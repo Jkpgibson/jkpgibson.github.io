@@ -10,7 +10,7 @@ Much of the CSS by stevelosh.com
 - Keep writing
 ### Should
 - Add mobile support
-- Make the resume download with my name in the filename
+- ~~Make the resume download with my name in the filename~~
 ### Want
 - Smooth out some edges
 - Make it look prettier
